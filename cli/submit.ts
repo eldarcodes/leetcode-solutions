@@ -11,10 +11,7 @@ const questions = [
     name: "difficulty",
     type: "list",
     message: "What is the difficulty of this task?",
-    choices: [...Array(9).keys()]
-      .slice(1)
-      .reverse()
-      .map((difficulty) => `${difficulty}-kyu`),
+    choices: ["easy", "medium", "hard"],
   },
   {
     name: "taskName",
@@ -31,7 +28,7 @@ const questions = [
 inquirer
   .prompt(questions)
   .then(async ({ taskName, difficulty, isCommitNeeded }) => {
-    const message = `feat(${difficulty}): resolve \`${taskName}\` kata`;
+    const message = `feat(${difficulty}): resolve \`${taskName}\` problem`;
 
     console.log(`${messages.yourCommitIs} ${colors.cyan(message)}`);
 
