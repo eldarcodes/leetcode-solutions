@@ -19,8 +19,12 @@
     "experimentalDecorators": true,
     "skipLibCheck": true,
     "baseUrl": ".",
-    "rootDir": "solutions"
+    "rootDir": ".",
+    "paths": {
+      "@types": ["./shared/types.ts"],
+      "@solutions": ["./solutions/index.ts"]
+    }
   },
   "exclude": ["node_modules"],
-  "include": ["solutions/**/*.ts"]
+  "include": ["shared/**/*.ts", "solutions/**/*.ts"]
 }
