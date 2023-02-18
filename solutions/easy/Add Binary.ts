@@ -21,5 +21,3 @@ export function addBinary(a: string, b: string): string {
 
   return result;
 }
-
-console.log(addBinary("1010", "1011"));

@@ -4,7 +4,6 @@ export const searchInsert = (nums: number[], target: number): number => {
 
   while (start <= end) {
     let mid = Math.floor(start + (end - start) / 2);
-    console.log({ mid: nums[mid] });
 
     // if k is found
     if (target > nums[mid]) {
