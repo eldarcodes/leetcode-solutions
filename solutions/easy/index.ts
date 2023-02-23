@@ -11,3 +11,4 @@ export * from "./Valid Anagram";
 export * from "./Plus One";
 export * from "./Convert Sorted Array to Binary Search Tree";
 export * from "./Balanced Binary Tree";
+export * from "./Minimum Depth of Binary Tree";
