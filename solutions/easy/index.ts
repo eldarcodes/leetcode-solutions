@@ -14,3 +14,4 @@ export * from "./Balanced Binary Tree";
 export * from "./Minimum Depth of Binary Tree";
 export * from "./Path Sum";
 export * from "./Valid Palindrome";
+export * from "./Pascal's Triangle";
