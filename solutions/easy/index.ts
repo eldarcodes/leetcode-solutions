@@ -20,3 +20,4 @@ export * from "./Linked List Cycle";
 export * from "./Binary Tree Preorder Traversal";
 export * from "./Binary Tree Postorder Traversal";
 export * from "./Excel Sheet Column Number";
+export * from "./Number of 1 Bits";
