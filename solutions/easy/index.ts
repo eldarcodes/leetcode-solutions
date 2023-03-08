@@ -23,3 +23,4 @@ export * from "./Excel Sheet Column Number";
 export * from "./Number of 1 Bits";
 export * from "./Happy Number";
 export * from "./Reverse Bits";
+export * from "./Find the Index of the First Occurrence in a String";
