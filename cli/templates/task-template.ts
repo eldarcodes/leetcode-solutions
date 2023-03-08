@@ -1,8 +1,6 @@
-export default `/**
- * Description:
- * 
- */
-export const defaultFunc = (input: any): any => {
+export const getTaskTemplate = (taskName: string) => {
+  return `export const ${taskName} = (input: any): any => {
   return null;
 };
 `;
+};

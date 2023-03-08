@@ -3,10 +3,11 @@ import * as colors from "colors";
 import messages from "./templates/messages";
 
 import simpleGit, { SimpleGit } from "simple-git";
+import { SubmitTaskAnswers } from "./types";
 
 const git: SimpleGit = simpleGit();
 
-const questions = [
+const questions: inquirer.QuestionCollection<SubmitTaskAnswers> = [
   {
     name: "difficulty",
     type: "list",
@@ -17,6 +18,13 @@ const questions = [
     name: "taskName",
     type: "input",
     message: "Task name:",
+    validate: function (value) {
+      if (value.trim().length === 0) {
+        return "Please enter task name.";
+      } else {
+        return true;
+      }
+    },
   },
   {
     name: "isCommitNeeded",
