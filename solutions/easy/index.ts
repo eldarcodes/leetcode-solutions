@@ -30,3 +30,4 @@ export * from "./Contains Duplicate II";
 export * from "./Defanging an IP Address";
 export * from "./Final Value of Variable After Performing Operations";
 export * from "./Word Pattern";
+export * from "./Missing Number";
