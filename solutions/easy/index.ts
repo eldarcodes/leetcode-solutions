@@ -31,3 +31,4 @@ export * from "./Defanging an IP Address";
 export * from "./Final Value of Variable After Performing Operations";
 export * from "./Word Pattern";
 export * from "./Missing Number";
+export * from "./Maximum Number of Words Found in Sentences";
