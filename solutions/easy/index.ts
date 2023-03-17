@@ -32,3 +32,4 @@ export * from "./Final Value of Variable After Performing Operations";
 export * from "./Word Pattern";
 export * from "./Missing Number";
 export * from "./Maximum Number of Words Found in Sentences";
+export * from "./Build Array from Permutation";
