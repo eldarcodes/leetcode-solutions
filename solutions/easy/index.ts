@@ -35,3 +35,4 @@ export * from "./Maximum Number of Words Found in Sentences";
 export * from "./Build Array from Permutation";
 export * from "./Left and Right Sum Differences";
 export * from "./Convert the Temperature";
+export * from "./Number of Good Pairs";
