@@ -36,3 +36,4 @@ export * from "./Build Array from Permutation";
 export * from "./Left and Right Sum Differences";
 export * from "./Convert the Temperature";
 export * from "./Number of Good Pairs";
+export * from "./Fibonacci Number";
