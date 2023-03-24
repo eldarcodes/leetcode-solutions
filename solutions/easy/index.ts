@@ -39,3 +39,4 @@ export * from "./Number of Good Pairs";
 export * from "./Fibonacci Number";
 export * from "./Power of Four";
 export * from "./Richest Customer Wealth";
+export * from "./Kids With the Greatest Number of Candies";
