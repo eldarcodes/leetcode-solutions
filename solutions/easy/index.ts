@@ -40,3 +40,4 @@ export * from "./Fibonacci Number";
 export * from "./Power of Four";
 export * from "./Richest Customer Wealth";
 export * from "./Kids With the Greatest Number of Candies";
+export * from "./Maximum 69 Number";
