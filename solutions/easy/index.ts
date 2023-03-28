@@ -43,3 +43,4 @@ export * from "./Kids With the Greatest Number of Candies";
 export * from "./Maximum 69 Number";
 export * from "./Center of Star Graph";
 export * from "./Invert Binary Tree";
+export * from "./Summary Ranges";
