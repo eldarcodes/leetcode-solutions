@@ -47,3 +47,4 @@ export * from "./Summary Ranges";
 export * from "./First Bad Version";
 export * from "./Intersection of Multiple Arrays";
 export * from "./Guess Number Higher or Lower";
+export * from "./Ugly Number";
