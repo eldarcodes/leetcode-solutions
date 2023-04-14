@@ -7,3 +7,4 @@ export * from "./Check If a String Contains All Binary Codes of Size K";
 export * from "./Repeated DNA Sequences";
 export * from "./Subsets";
 export * from "./Permutations";
+export * from "./First and Last Position of Element in Sorted Array";
