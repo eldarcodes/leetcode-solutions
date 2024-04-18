@@ -49,3 +49,4 @@ export * from "./Intersection of Multiple Arrays";
 export * from "./Guess Number Higher or Lower";
 export * from "./Ugly Number";
 export * from "./Merge Strings Alternately";
+export * from "./Greatest Common Divisor of Strings";
