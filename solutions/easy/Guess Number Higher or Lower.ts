@@ -1,3 +1,5 @@
+const guess = (num: number) => num;
+
 /**
  * Forward declaration of guess API.
  * @param {number} num   your guess
@@ -6,8 +8,7 @@
  *               otherwise return 0
  * var guess = function(num) {}
  */
-
-function guessNumber(n: number): number {
+export function guessNumber(n: number): number {
   let left = 1;
   let right = n;
   while (left <= right) {

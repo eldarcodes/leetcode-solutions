@@ -5,7 +5,7 @@
   Time complexity = O(n)
   Space complexity = O(n)
 */
-function mergeAlternately(word1: string, word2: string): string {
+export function mergeAlternately(word1: string, word2: string): string {
   let result = "";
 
   const maxLength = Math.max(word1.length, word2.length);
