@@ -8,3 +8,4 @@ export * from "./Repeated DNA Sequences";
 export * from "./Subsets";
 export * from "./Permutations";
 export * from "./First and Last Position of Element in Sorted Array";
+export * from "./Increasing Triplet Subsequence";
