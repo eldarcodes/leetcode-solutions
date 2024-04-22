@@ -19,5 +19,3 @@ export function isAnagram(s: string, t: string): boolean {
 
   return true;
 }
-
-console.log(isAnagram("anagram", "raagnrm"));
