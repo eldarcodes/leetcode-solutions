@@ -53,3 +53,4 @@ export * from "./Greatest Common Divisor of Strings";
 export * from "./Can Place Flowers";
 export * from "./Reverse Vowels of a String";
 export * from "./Move Zeros";
+export * from "./Is Subsequence";
