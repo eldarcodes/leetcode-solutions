@@ -12,3 +12,4 @@ export * from "./Reverse Words in a String";
 export * from "./Increasing Triplet Subsequence";
 export * from "./String Compression";
 export * from "./Container With Most Water";
+export * from "./Max Number of K-Sum Pairs";
