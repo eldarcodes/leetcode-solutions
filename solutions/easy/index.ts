@@ -54,3 +54,4 @@ export * from "./Can Place Flowers";
 export * from "./Reverse Vowels of a String";
 export * from "./Move Zeros";
 export * from "./Is Subsequence";
+export * from "./Find the Highest Altitude";
