@@ -29,5 +29,3 @@ export function maxOperations(nums: number[], k: number): number {
 
   return operations;
 }
-
-console.log(maxOperations([7, 4, 1, 6, 3], 10));

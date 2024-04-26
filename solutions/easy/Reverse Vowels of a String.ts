@@ -25,5 +25,3 @@ export function reverseVowels(s: string): string {
 
   return result;
 }
-
-console.log(reverseVowels("hello"));
