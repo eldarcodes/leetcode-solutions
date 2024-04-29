@@ -56,3 +56,4 @@ export * from "./Move Zeros";
 export * from "./Is Subsequence";
 export * from "./Find the Highest Altitude";
 export * from "./Maximum Average Subarray I";
+export * from "./Find the Difference of Two Arrays";
