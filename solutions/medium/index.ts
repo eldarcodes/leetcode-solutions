@@ -15,3 +15,4 @@ export * from "./Container With Most Water";
 export * from "./Max Number of K-Sum Pairs";
 export * from "./Maximum Number of Vowels in a Substring of Given Length";
 export * from "./Max Consecutive Ones III";
+export * from "./Longest Subarray of 1's After Deleting One Element";
