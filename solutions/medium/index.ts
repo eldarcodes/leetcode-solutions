@@ -18,3 +18,4 @@ export * from "./Max Consecutive Ones III";
 export * from "./Longest Subarray of 1's After Deleting One Element";
 export * from "./Determine if Two Strings Are Close";
 export * from "./Equal Row and Column Pairs";
+export * from "./Removing Stars From a String";
