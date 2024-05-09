@@ -21,3 +21,4 @@ export * from "./Equal Row and Column Pairs";
 export * from "./Removing Stars From a String";
 export * from "./Asteroid Collision";
 export * from "./Decode String";
+export * from "./Dota2 Senate";
