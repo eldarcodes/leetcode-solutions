@@ -20,11 +20,16 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "rootDir": ".",
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
     "paths": {
-      "@types": ["./shared/types.ts"],
-      "@solutions": ["./solutions/index.ts"]
+      "@/*": ["./*"]
     }
   },
   "exclude": ["node_modules"],
-  "include": ["shared/**/*.ts", "solutions/**/*.ts"]
+  "include": ["next-env.d.ts", "**/*.ts"]
 }
