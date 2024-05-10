@@ -9,13 +9,13 @@
     "@types/inquirer": "^8.1.3",
     "@types/lodash": "^4.14.191",
     "@types/node": "^16.11.1",
-    "ts-node": "^10.3.0",
+    "tsx": "^4.9.3",
     "typescript": "^4.4.4"
   },
   "scripts": {
-    "watch": "nodemon --exec ts-node solutions/index.ts",
-    "submit": "ts-node ./cli/submit.ts",
-    "create-task": "ts-node ./cli/create-task.ts",
+    "watch": "nodemon --exec tsx solutions/index.ts",
+    "submit": "tsx ./cli/submit.ts",
+    "create-task": "tsx ./cli/create-task.ts",
     "clear": "rm -rf ./node_modules && rm -rf ./dist",
     "build": "tsc -b"
   },
