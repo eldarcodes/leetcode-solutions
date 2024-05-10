@@ -1,4 +1,4 @@
-import { TreeNode } from "@types";
+import { TreeNode } from "@/shared/types";
 
 export function preorderTraversal(root: TreeNode | null): number[] {
   if (root === null) return [];

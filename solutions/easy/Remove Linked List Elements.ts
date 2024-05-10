@@ -1,4 +1,4 @@
-import { ListNode } from "@types";
+import { ListNode } from "@/shared/types";
 
 export function removeElements(
   head: ListNode | null,

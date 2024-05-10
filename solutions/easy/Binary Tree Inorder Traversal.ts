@@ -1,4 +1,4 @@
-import { TreeNode } from "@types";
+import { TreeNode } from "@/shared/types";
 
 export function inorderTraversal(root: TreeNode | null): number[] {
   const result: number[] = [];

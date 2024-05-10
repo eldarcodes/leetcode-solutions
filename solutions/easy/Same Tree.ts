@@ -1,4 +1,4 @@
-import { TreeNode } from "@types";
+import { TreeNode } from "@/shared/types";
 
 export function isSameTree(p: TreeNode | null, q: TreeNode | null): boolean {
   // if both empty
