@@ -1,4 +1,4 @@
-import { TreeNode } from "@/shared/types";
+import { TreeNode } from "@/utils/tree-node";
 
 function isMirror(node1: TreeNode | null, node2: TreeNode | null): boolean {
   if (node1 === null && node2 === null) return true;

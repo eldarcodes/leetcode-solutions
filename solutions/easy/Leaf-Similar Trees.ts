@@ -1,5 +1,4 @@
-import { TreeNode } from "@/shared/types";
-import { createTree } from "@/shared/utils/tree-node";
+import { TreeNode } from "@/utils/tree-node";
 
 /**
   Input: root1 = [3,5,1,6,2,9,8,null,null,7,4], root2 = [3,5,1,6,7,4,2,null,null,null,null,null,null,9,8]

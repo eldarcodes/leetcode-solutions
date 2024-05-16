@@ -1,4 +1,4 @@
-import { TreeNode } from "@/shared/types";
+import { TreeNode } from "@/utils/tree-node";
 
 /**
   Input: root = [3,1,4,3,null,1,5]

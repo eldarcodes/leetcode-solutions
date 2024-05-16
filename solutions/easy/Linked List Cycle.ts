@@ -1,4 +1,4 @@
-import { ListNode } from "@/shared/types";
+import { ListNode } from "@/utils/list-node";
 
 export function hasCycle(head: ListNode | null): boolean {
   let slow = head;

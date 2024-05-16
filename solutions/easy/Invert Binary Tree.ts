@@ -1,4 +1,4 @@
-import { TreeNode } from "@/shared/types";
+import { TreeNode } from "@/utils/tree-node";
 
 export function invertTree(root: TreeNode | null): TreeNode | null {
   if (root === null) return null;

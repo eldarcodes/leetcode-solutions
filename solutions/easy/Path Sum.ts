@@ -1,4 +1,4 @@
-import { TreeNode } from "@/shared/types";
+import { TreeNode } from "@/utils/tree-node";
 
 export function hasPathSum(root: TreeNode | null, targetSum: number): boolean {
   const dfs = (node: TreeNode | null, currentSum: number): boolean => {

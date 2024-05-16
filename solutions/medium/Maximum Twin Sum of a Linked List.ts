@@ -1,4 +1,4 @@
-import { ListNode } from "@/shared/types";
+import { ListNode } from "@/utils/list-node";
 
 /**
   Input: head = [4,2,2,3]

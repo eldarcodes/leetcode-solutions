@@ -1,4 +1,4 @@
-import { TreeNode } from "@/shared/types";
+import { TreeNode } from "@/utils/tree-node";
 
 export function maxDepth(root: TreeNode | null): number {
   if (!root) return 0;

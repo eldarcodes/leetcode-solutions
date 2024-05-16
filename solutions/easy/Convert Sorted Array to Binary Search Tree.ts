@@ -1,4 +1,4 @@
-import { TreeNode } from "@/shared/types";
+import { TreeNode } from "@/utils/tree-node";
 
 export function sortedArrayToBST(nums: number[]): TreeNode | null {
   if (nums.length === 0) return null;

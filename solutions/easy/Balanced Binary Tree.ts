@@ -1,4 +1,4 @@
-import { TreeNode } from "@/shared/types";
+import { TreeNode } from "@/utils/tree-node";
 
 export function isBalanced(root: TreeNode | null): boolean {
   if (root === null) return true;

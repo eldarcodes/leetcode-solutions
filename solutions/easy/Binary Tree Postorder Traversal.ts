@@ -1,4 +1,4 @@
-import { TreeNode } from "@/shared/types";
+import { TreeNode } from "@/utils/tree-node";
 
 export function postorderTraversal(root: TreeNode | null): number[] {
   if (root === null) return [];
