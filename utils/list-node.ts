@@ -1,4 +1,11 @@
-import { ListNode } from "@/shared/types";
+export class ListNode {
+  val: number;
+  next: ListNode | null;
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val;
+    this.next = next === undefined ? null : next;
+  }
+}
 
 // Helper function to create a linked list from an array
 export function createLinkedList(arr: number[]): ListNode | null {

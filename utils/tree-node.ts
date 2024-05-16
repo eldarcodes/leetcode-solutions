@@ -1,4 +1,13 @@
-import { TreeNode } from "@/shared/types";
+export class TreeNode {
+  val: number;
+  left: TreeNode | null;
+  right: TreeNode | null;
+  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
+    this.val = val === undefined ? 0 : val;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
+  }
+}
 
 export function createTree(arr: (number | null)[]): TreeNode | null {
   if (arr.length === 0) return null;
