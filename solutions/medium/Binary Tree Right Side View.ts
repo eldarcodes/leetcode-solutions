@@ -1,4 +1,5 @@
-import { TreeNode, createTree } from "@/utils/tree-node";
+import { TreeNode } from "@/utils/tree-node";
+
 /**
   Input: root = [1,2,3,null,5,null,4]
   Output: [1,3,4]
@@ -28,5 +29,3 @@ export function rightSideView(root: TreeNode | null): number[] {
 
   return result;
 }
-
-console.log(rightSideView(createTree([1, 2, 3, null, 5, null, 4])));
