@@ -31,3 +31,4 @@ export * from "./Path Sum III";
 export * from "./Delete Node in a BST";
 export * from "./Binary Tree Right Side View";
 export * from "./Maximum Level Sum of a Binary Tree";
+export * from "./Lowest Common Ancestor of a Binary Search Tree";
