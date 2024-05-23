@@ -33,3 +33,4 @@ export * from "./Binary Tree Right Side View";
 export * from "./Maximum Level Sum of a Binary Tree";
 export * from "./Lowest Common Ancestor of a Binary Search Tree";
 export * from "./Longest ZigZag Path in a Binary Tree";
+export * from "./Successful Pairs of Spells and Potions";
