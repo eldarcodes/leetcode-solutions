@@ -35,3 +35,4 @@ export * from "./Lowest Common Ancestor of a Binary Search Tree";
 export * from "./Longest ZigZag Path in a Binary Tree";
 export * from "./Successful Pairs of Spells and Potions";
 export * from "./Find Peak Element";
+export * from "./Keys and Rooms";
