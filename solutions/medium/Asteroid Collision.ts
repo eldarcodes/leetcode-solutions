@@ -2,8 +2,8 @@
   Input: asteroids = [5,10,-5]
   Output: [5,10]
 
-  Time complexity = O()
-  Space complexity = O()
+  Time complexity = O(n)
+  Space complexity = O(n)
 */
 export function asteroidCollision(asteroids: number[]): number[] {
   const stack: number[] = [];

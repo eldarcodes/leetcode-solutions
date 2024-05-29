@@ -2,8 +2,8 @@
   Input: s = "leet**cod*e"
   Output: "lecoe"
 
-  Time complexity = O()
-  Space complexity = O()
+  Time complexity = O(n)
+  Space complexity = O(n)
 */
 export function removeStars(s: string): string {
   let result: string[] = [];
