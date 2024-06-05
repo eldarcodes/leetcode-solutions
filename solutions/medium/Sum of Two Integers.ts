@@ -14,5 +14,3 @@ export function getSum(a: number, b: number): number {
 
   return a;
 }
-
-console.log(getSum(2, 3));
