@@ -1,10 +1,13 @@
 export function containsDuplicate(nums: number[]): boolean {
+  const hash = new Set();
+
   for (let i = 0; i < nums.length; i++) {
-    for (let j = 0; j < nums.length; j++) {
-      if (nums[i] === nums[j] && i !== j) {
-        return true;
-      }
+    if (hash.has(nums[i])) {
+      return true;
     }
+
+    hash.add(nums[i]);
   }
+
   return false;
 }
