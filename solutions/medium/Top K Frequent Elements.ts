@@ -2,8 +2,8 @@
   Input: nums = [1,1,1,2,2,3], k = 2
   Output: [1,2]
 
-  Time complexity = O()
-  Space complexity = O()
+  Time complexity = O(n)
+  Space complexity = O(n)
 */
 export function topKFrequent(nums: number[], k: number): number[] {
   const bucketMap: number[][] = Array.from(
