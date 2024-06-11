@@ -45,3 +45,4 @@ export * from "./Sum of Two Integers";
 export * from "./Valid Sudoku";
 export * from "./Top K Frequent Elements";
 export * from "./Longest Consecutive Sequence";
+export * from "./Two Sum II - Input Array Is Sorted";
