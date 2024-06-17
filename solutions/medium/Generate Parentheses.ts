@@ -3,15 +3,14 @@
   Output: ["((()))","(()())","(())()","()(())","()()()"]
 
 
-  Time complexity = O()
-  Space complexity = O()
+  Time complexity = O(2^n)
+  Space complexity = O(n)
 */
 export function generateParenthesis(n: number): string[] {
   const stack: string[] = [];
   const result: string[] = [];
 
   const backtrack = (openedCount: number, closedCount: number) => {
-    console.log(stack);
     if (openedCount === n && closedCount === n) {
       result.push(stack.join(""));
       return;

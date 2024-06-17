@@ -11,7 +11,6 @@ export function evalRPN(tokens: string[]): number {
   const operators = ["+", "-", "*", "/"];
 
   for (const token of tokens) {
-    console.log(stack);
     if (operators.includes(token)) {
       const a = stack.pop()!;
       const b = stack.pop()!;
