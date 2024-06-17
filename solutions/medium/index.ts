@@ -49,3 +49,4 @@ export * from "./Two Sum II - Input Array Is Sorted";
 export * from "./3Sum";
 export * from "./Evaluate Reverse Polish Notation";
 export * from "./Generate Parentheses";
+export * from "./Daily Temperatures";
