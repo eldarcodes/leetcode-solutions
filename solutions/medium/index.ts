@@ -52,3 +52,4 @@ export * from "./Generate Parentheses";
 export * from "./Daily Temperatures";
 export * from "./Search a 2D Matrix";
 export * from "./Find Minimum in Rotated Sorted Array";
+export * from "./Search in Rotated Sorted Array";
