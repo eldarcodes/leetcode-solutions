@@ -3,7 +3,7 @@
   Output: 1
 
   Time complexity = O(log n)
-  Space complexity = O(n)
+  Space complexity = O(1)
 */
 export function findMin(nums: number[]): number {
   let result = nums[0];
