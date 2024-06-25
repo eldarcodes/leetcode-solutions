@@ -55,3 +55,4 @@ export * from "./Find Minimum in Rotated Sorted Array";
 export * from "./Search in Rotated Sorted Array";
 export * from "./Longest Substring Without Repeating Characters";
 export * from "./Longest Repeating Character Replacement";
+export * from "./Permutation in String";
