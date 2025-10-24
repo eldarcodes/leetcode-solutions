@@ -67,3 +67,4 @@ export * from "./Best Time to Buy and Sell Stock";
 export * from "./Climbing Stairs";
 export * from "./Binary Search";
 export * from "./Two Sum";
+export * from "./Palindrome Number";
