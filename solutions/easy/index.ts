@@ -69,3 +69,4 @@ export * from "./Binary Search";
 export * from "./Two Sum";
 export * from "./Palindrome Number";
 export * from "./Roman to Integer";
+export * from "./Longest Common Prefix";
