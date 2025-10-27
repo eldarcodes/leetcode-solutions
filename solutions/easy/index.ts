@@ -72,3 +72,4 @@ export * from "./Roman to Integer";
 export * from "./Longest Common Prefix";
 export * from "./Valid Parentheses";
 export * from "./Merge Two Sorted Lists";
+export * from "./Remove Duplicates from Sorted Array";
