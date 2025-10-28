@@ -74,3 +74,4 @@ export * from "./Valid Parentheses";
 export * from "./Merge Two Sorted Lists";
 export * from "./Remove Duplicates from Sorted Array";
 export * from "./Remove Element";
+export * from "./Length of Last Word";
